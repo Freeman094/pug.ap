@@ -1,0 +1,10 @@
+// Переопределение дефолтных значений переменных Bootstrap 4 и определение своих
+@import "variables";
+
+// import uikit
+@import "node_modules/uikit/src/scss/variables";
+@import "node_modules/uikit/src/scss/components/import";
+@import "node_modules/uikit/src/scss/uikit";
+
+// Подключение своих SCSS файлов
+@import "my";
